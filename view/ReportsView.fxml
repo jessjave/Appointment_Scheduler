@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="306.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Reports">
+   <children>
+      <Label layoutX="96.0" layoutY="28.0" text="Reports">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="customerBtn" layoutX="32.0" layoutY="77.0" mnemonicParsing="false" onAction="#onActCustomerBtn" prefHeight="39.0" prefWidth="206.0" text="Customer Appointments" />
+      <Button fx:id="loginBtn" layoutX="32.0" layoutY="174.0" mnemonicParsing="false" onAction="#onActLoginBtn" prefHeight="39.0" prefWidth="206.0" text="Login Attempts" />
+      <Button fx:id="contactBtn" layoutX="32.0" layoutY="126.0" mnemonicParsing="false" onAction="#onActContactBtn" prefHeight="39.0" prefWidth="206.0" text="Contact Schedules" />
+      <Button fx:id="viewCustomersBtn" layoutX="14.0" layoutY="232.0" mnemonicParsing="false" onAction="#onActViewCustomers" text="View Customers" />
+      <Button fx:id="viewApptsBtn" layoutX="140.0" layoutY="232.0" mnemonicParsing="false" onAction="#onActViewAppts" text="View Appointments" />
+      <Button fx:id="quitBtn" layoutX="218.0" layoutY="264.0" mnemonicParsing="false" onAction="#onActQuit" text="Quit" />
+   </children>
+</AnchorPane>
