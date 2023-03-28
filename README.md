@@ -5,12 +5,16 @@ You are working for a software company that has been contracted to develop a GUI
 
 ## USAGE
 When running the application the user will be initially prompted with a login page. Depending on the user's language settings on their computer the login page will either be in English or French. To enter the application the user can login by entering "test" or "admin" into the the credentials for both username & password <br/> <br/>
-<img src="https://i.imgur.com/gYZyqFv.png" alt="Login in English"/>
-<img src="https://i.imgur.com/J5MqbrR.png" alt="Login in French"/>
+<img src="https://i.imgur.com/gYZyqFv.png" alt="Login in English" width=300, height=225/>
+<img src="https://i.imgur.com/J5MqbrR.png" alt="Login in French" width=300, height=225/>
 <br/>
 
 Once the application has been logged into, it will prompt the user with a warning message stating whether or not the user has an appointment within 15 minutes of logging in. It will also populate the table and display the data of all the customers that have been entered into the database. It is on this page that the user may manage customer data including add/edit/deleting customer data from the database. <br/> <br/>
-<img src="https://i.imgur.com/mOoGgJV.png" alt="Customer Directory"/> <br/> <br/>
+<img src="https://i.imgur.com/mOoGgJV.png" alt="Customer Directory" width=600, height=500/> <br/> <br/>
 
 The user can then navigate to the appointment directory where they can add/edit/delete appointments for customers, and also filter the appointments by week or month.<br/><br/>
-<img src="https://i.imgur.com/ecjVNBU.png" alt="Appointment Directory"/> <br/>
+<img src="https://i.imgur.com/ecjVNBU.png" alt="Appointment Directory" width=700, height=500/> <br/>
+
+There is also an option to see system printed reports including login attempts and contact schedules by clicking on "View Reports". <br/><br/>
+<img src="https://i.imgur.com/UNbBJzs.png" alt="Login Attempts" width=175, height=300/>
+<img src="https://i.imgur.com/nrWidCb.png" alt="Contact Schedules" width=500, height=300/>
