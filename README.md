@@ -10,4 +10,7 @@ When running the application the user will be initially prompted with a login pa
 <br/>
 
 Once the application has been logged into, it will prompt the user with a warning message stating whether or not the user has an appointment within 15 minutes of logging in. It will also populate the table and display the data of all the customers that have been entered into the database. It is on this page that the user may manage customer data including add/edit/deleting customer data from the database. <br/> <br/>
-<img src="https://i.imgur.com/GZkAXhR.png" alt="After Login"/>
+<img src="https://i.imgur.com/mOoGgJV.png" alt="Customer Directory"/> <br/> <br/>
+
+The user can then navigate to the appointment directory where they can add/edit/delete appointments for customers, and also filter the appointments by week or month.<br/><br/>
+<img src="https://i.imgur.com/ecjVNBU.png" alt="Appointment Directory"/> <br/>
